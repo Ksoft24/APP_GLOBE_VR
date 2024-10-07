@@ -39,6 +39,7 @@ last_mouse_pos = None
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 GRAY = (150, 150, 150)
+ORANGERED=(255, 69, 0)
 
 # Fuente
 font = pygame.font.SysFont(None, 40)
@@ -122,7 +123,7 @@ def show_page():
     avance_button = draw_button("Avanzar", WIDTH - 200, 10, GRAY)
 
     # Botón para regresar al menú principal
-    menu_button = draw_button("Menú", WIDTH - 200, HEIGHT - 60, GRAY)
+    menu_button = draw_button("Menú", WIDTH - 200, HEIGHT - 60, ORANGERED)
    # Dibujar botones
 
     # Mostrar ángulo en la parte superior
